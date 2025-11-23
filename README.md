@@ -100,16 +100,16 @@ High-Level Architecture
 |     User Interface    |<br>
 |  (Tkinter Windows)    |<br>
 +----------+------------+<br>
-          |<br>
-          v<br>
+          |
+          v
 +-----------------------+<br>
 |   Application Logic   |<br>
 | add_to_cart()         |<br>
 | update_cart_display() |<br>
 | place_order()         |<br>
 +----------+------------+<br>
-          |<br>
-          v<br>
+          |
+          v
 +-----------------------+<br>
 |   Data Structures     |<br>
 | Menu (dict)           |<br>
