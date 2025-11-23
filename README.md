@@ -97,24 +97,24 @@ This project solves this by providing a simple and interactive GUI-based food or
 High-Level Architecture
  
 +-----------------------+<br>
-|     User Interface    |
-|  (Tkinter Windows)    |
-+----------+------------+
-          |
-          v
-+-----------------------+
-|   Application Logic   |
-| add_to_cart()         |
-| update_cart_display() |
-| place_order()         |
-+----------+------------+
-          |
-          v
-+-----------------------+
-|   Data Structures     |
-| Menu (dict)           |
-| Cart (dict)           |
-+-----------------------+
+|     User Interface    |<br>
+|  (Tkinter Windows)    |<br>
++----------+------------+<br>
+          |<br>
+          v<br>
++-----------------------+<br>
+|   Application Logic   |<br>
+| add_to_cart()         |<br>
+| update_cart_display() |<br>
+| place_order()         |<br>
++----------+------------+<br>
+          |<br>
+          v<br>
++-----------------------+<br>
+|   Data Structures     |<br>
+| Menu (dict)           |<br>
+| Cart (dict)           |<br>
++-----------------------+<br>
  
  
  
