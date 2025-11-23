@@ -1,11 +1,11 @@
 # food_ordering_app
-1. Introduction
+<h2>1. Introduction</h2>
  
 The Food Ordering App is a Python-based desktop application designed to simulate a basic food ordering system. It demonstrates GUI development using Tkinter, event-driven programming, modular functions, and interactive user workflows. The application includes a food menu, a cart system, total price calculation, and order confirmation.
  
  
  
-2. Problem Statement
+<h2>2. Problem Statement</h2>
  
 In a typical food service environment, users need an intuitive and simple interface to view a menu and place orders. Many beginner-level GUI learners struggle to implement a functional ordering system with cart management, messaging, and real-time updates.
  
@@ -30,7 +30,7 @@ This project solves this by providing a simple and interactive GUI-based food or
  
  
  
-4. Functional Requirements
+<h2>4. Functional Requirements</h2>
  
 • The application includes the following functional modules:
  
@@ -41,7 +41,7 @@ This project solves this by providing a simple and interactive GUI-based food or
 • Allows user to select one item at a time.
  
  
-Module 2 — Cart Management
+<h2>Module 2 — Cart Management</h2>
  
 • Adds selected items to the cart.
  
@@ -50,7 +50,7 @@ Module 2 — Cart Management
 • Displays updated cart and total price.
  
  
-Module 3 — Order Placement
+<h2>Module 3 — Order Placement</h2>
  
 • Allows user to place an order.
  
@@ -59,7 +59,7 @@ Module 3 — Order Placement
 • Provides order confirmation dialog.
  
  
-• Input/Output Structure
+<h2>Input/Output Structure</h2>
  
 • Input: User clicks and item selections from GUI.
  
@@ -67,7 +67,7 @@ Module 3 — Order Placement
  
  
  
-5. Non-Functional Requirements
+<h2>5. Non-Functional Requirements</h2>
  
 1. Usability:
 • The interface must be simple, readable, and easy to navigate.
@@ -92,7 +92,7 @@ Module 3 — Order Placement
 • Prevents crashes by handling user actions safely.
  
  
-6. System Architecture
+<h2>6. System Architecture</h2>
  
 High-Level Architecture
  
@@ -118,7 +118,7 @@ High-Level Architecture
  
  
  
-7. Workflow / Process Flow Diagram
+<h2>7. Workflow / Process Flow Diagram</h2>
  
 User Workflow
  
@@ -144,7 +144,7 @@ User clicks "Place Order"
  v
 End
  
-8. UML Diagrams 
+<h2>8. UML Diagrams</h2>
  
 Use Case Diagram
  
@@ -188,7 +188,7 @@ User          GUI            Logic          Cart
               |<--------------|
  
  
-9. Implementation Details
+<h2>9. Implementation Details</h2>
  
 • Technologies Used
  
@@ -224,7 +224,7 @@ User          GUI            Logic          Cart
  
  
  
-11. Testing Approach
+<h2>10. Testing Approach</h2>
  
 Manual Test Cases
  
@@ -242,7 +242,7 @@ All tests passed successfully.
  
  
  
-12. Challenges Faced
+<h2>11. Challenges Faced</h2>
  
 • Handling dynamic cart updates without refreshing the entire GUI.
  
@@ -252,7 +252,7 @@ All tests passed successfully.
  
  
  
-13. Learnings & Key Takeaways
+<h2>12. Learnings & Key Takeaways</h2>
  
 • How to build GUIs using Tkinter.
  
@@ -262,7 +262,7 @@ All tests passed successfully.
 • Implementing modular function-based design.
  
  
-14. Future Enhancements
+<h2>13. Future Enhancements</h2>
  
 • Add images for menu items.
  
@@ -277,7 +277,7 @@ All tests passed successfully.
 • Add remove/edit cart items feature.
  
  
-15. References
+<h2>14. References</h2>
 • Python Tkinter Documentation
  
 • Python messagebox library
