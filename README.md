@@ -14,7 +14,7 @@ This project solves this by providing a simple and interactive GUI-based food or
  
  
  
-3. Objectives
+<h2>3. Objectives</h2>
  
 • To design a user-friendly GUI for ordering food.
  
