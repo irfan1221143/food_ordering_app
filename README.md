@@ -96,7 +96,7 @@ Module 3 — Order Placement
  
 High-Level Architecture
  
-+-----------------------+
++-----------------------+<br>
 |     User Interface    |
 |  (Tkinter Windows)    |
 +----------+------------+
