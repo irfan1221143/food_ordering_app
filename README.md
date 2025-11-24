@@ -122,19 +122,6 @@ FoodOrderingApp/
 
 
 
-## Screenshots (Add in GitHub Repo)
-
-You may add the following screenshots:
-
-Main menu window
-
-Cart with items
-
-Order confirmation popup
-
-
-
-
 ## Future Enhancements
 
 Add a database to store orders.
