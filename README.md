@@ -145,6 +145,7 @@ User clicks "Place Order"
 End
  </pre>
 <h2>8. UML Diagrams</h2>
+ 
  <pre>
 Use Case Diagram
  
@@ -168,7 +169,7 @@ Class / Component Diagram
 | - place_order()         |
 +-------------------------+
  
-Sequence Diagram<br>
+Sequence Diagram
  
 User          GUI            Logic          Cart
 |             |               |              |
