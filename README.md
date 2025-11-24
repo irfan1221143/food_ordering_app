@@ -32,9 +32,9 @@ This project solves this by providing a simple and interactive GUI-based food or
  
 <h2>4. Functional Requirements</h2>
  
-• The application includes the following functional modules:
+The application includes the following functional modules:
  
-• Module 1 — Menu Display
+<h2>Module 1 — Menu Display</h2>
  
 • Shows a list of food items available.
  
