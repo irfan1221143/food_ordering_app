@@ -1,8 +1,8 @@
 # food_ordering_app
 <h2>1. Introduction</h2>
- 
+ <br>
 The Food Ordering App is a Python-based desktop application designed to simulate a basic food ordering system. It demonstrates GUI development using Tkinter, event-driven programming, modular functions, and interactive user workflows. The application includes a food menu, a cart system, total price calculation, and order confirmation.
- 
+ <br>
  
  
 <h2>2. Problem Statement</h2>
