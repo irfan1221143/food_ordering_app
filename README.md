@@ -158,34 +158,34 @@ View Menu     Add to Cart        Place Order
  
 Class / Component Diagram
  
-+-------------------------+<br>
-| FoodOrderingApp (main)  |<br>
-+-------------------------+<br>
-| - menu: dict            |<br>
-| - cart: dict            |<br>
-| - add_to_cart()         |<br>
-| - update_cart_display() |<br>
-| - place_order()         |<br>
-+-------------------------+<br>
++-------------------------+
+| FoodOrderingApp (main)  |
++-------------------------+
+| - menu: dict            |
+| - cart: dict            |
+| - add_to_cart()         |
+| - update_cart_display() |
+| - place_order()         |
++-------------------------+
  
 Sequence Diagram<br>
  
-User          GUI            Logic          Cart<br>
-|             |               |              |<br>
-| Select Item |               |              |<br>
-|------------>|               |              |<br>
-| Add to Cart |               |              |<br>
-|------------>| add_to_cart() |              |<br>
-              |-------------->| Update qty   |<br>
-              |               |--------------|<br>
-              | update_cart_display()        |<br>
-              |<-----------------------------|<br>
-| Place Order |               |              |<br>
-|------------>| place_order() |              |<br>
-              |-------------->| Confirm & Clear<br>
-              |               |--------------|<br>
-              | Show Message  |<br>
-              |<--------------|<br>
+User          GUI            Logic          Cart
+|             |               |              |
+| Select Item |               |              |
+|------------>|               |              |
+| Add to Cart |               |              |
+|------------>| add_to_cart() |              |
+              |-------------->| Update qty   |
+              |               |--------------|
+              | update_cart_display()        |
+              |<-----------------------------|
+| Place Order |               |              |
+|------------>| place_order() |              |
+              |-------------->| Confirm & Clear
+              |               |--------------|
+              | Show Message  |
+              |<--------------|
  </pre>
  
 <h2>9. Implementation Details</h2>
