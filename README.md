@@ -100,7 +100,7 @@ High-Level Architecture
 |     User Interface    |<br>
 |  (Tkinter Windows)    |<br>
 +----------+------------+<br>
-          |
+          |<br>
           v
 +-----------------------+<br>
 |   Application Logic   |<br>
