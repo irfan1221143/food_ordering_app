@@ -119,7 +119,7 @@ High-Level Architecture
  
  
 <h2>7. Workflow / Process Flow Diagram</h2>
- 
+ <pre>
 User Workflow
  
 Start
@@ -143,7 +143,7 @@ User clicks "Place Order"
  |
  v
 End
- 
+ </pre>
 <h2>8. UML Diagrams</h2>
  
 Use Case Diagram
