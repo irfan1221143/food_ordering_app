@@ -95,27 +95,27 @@ The application includes the following functional modules:
 <h2>6. System Architecture</h2>
  
 High-Level Architecture
- 
-+-----------------------+<br>
-|     User Interface    |<br>
-|  (Tkinter Windows)    |<br>
-+----------+------------+<br>
+ <pre>
++-----------------------+
+|     User Interface    |
+|  (Tkinter Windows)    |
++----------+------------+
            |
            v
-+-----------------------+<br>
-|   Application Logic   |<br>
-| add_to_cart()         |<br>
-| update_cart_display() |<br>
-| place_order()         |<br>
-+----------+------------+<br>
++-----------------------+
+|   Application Logic   |
+| add_to_cart()         |
+| update_cart_display() |
+| place_order()         |
++----------+------------+
            |
            v
-+-----------------------+<br>
-|   Data Structures     |<br>
-| Menu (dict)           |<br>
-| Cart (dict)           |<br>
-+-----------------------+<br>
- 
++-----------------------+
+|   Data Structures     |
+| Menu (dict)           |
+| Cart (dict)           |
++-----------------------+
+ </pre>
  
  
 <h2>7. Workflow / Process Flow Diagram</h2>
