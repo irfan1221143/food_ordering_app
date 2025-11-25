@@ -1,150 +1,115 @@
-# Food Ordering Application
+## Food Ordering System – Python Tkinter
+
+A desktop-based food ordering application that allows users to browse a menu, add items to cart, view total price, and place an order — built using Python and Tkinter GUI framework.
 
 
-## Overview
 
-The Food Ordering App is a simple graphical desktop application built using Python and Tkinter.
-It allows users to browse a menu, add items to a cart, view total cost, and place an order.
-This project demonstrates GUI development, event-driven programming, and basic data handling.
+## Project Overview
 
-The system simulates the workflow of a real-world food ordering interface with an easy-to-use layout.
-
+This project digitalizes the manual food ordering process commonly used in cafés and restaurants.
+The application provides an interactive graphical menu interface, billing system, and order confirmation workflow.
+It is simple, fast, and designed for small restaurants/canteens transitioning to digital order management.
 
 
 
 ## Features
 
-   Functional Features:
-
-1. Menu Display:
-   Shows available food items with their prices.
-
-
-2. Add to Cart:
-   Users can select an item from the list and add it to the cart.
-
-
-3. Cart Management:
-   Displays selected items,
-   Shows quantity,
-   Updates total amount automatically.
-
-
-
-4. Place Order
-   Confirms and completes the order using message boxes.
+### Module	                    |               Description
+                                |
+Menu Display	                 |               Shows list of available food items with prices
+Add to Cart	                    |               Items can be added multiple times; quantity updates automatically
+Billing System	                 |               Calculates item-wise and total price dynamically
+Order Placement	              |               Confirms order and clears the cart
+GUI-based System	              |               User-friendly interface using Tkinter
 
 
 
 
 ## Technologies / Tools Used
 
-Python 3
-
-Tkinter (Python GUI Toolkit)
-
-Messagebox module for pop-ups and alerts
-
-Dictionary-based data storage for menu and cart
+### Component	                   |                Technology
+                                  |
+Programming Language	             |                Python
+GUI Framework	                   |                Tkinter
+Miscellaneous	                   |                Messagebox for alerts & confirmations
 
 
 
 
-## Folder Structure (Recommended for GitHub)
-<pre>
-FoodOrderingApp/
+## Folder Structure
+
+Food-Ordering-System
 │
-├── src/
-│   ├── app.py
-│
+├── main.py
 ├── README.md
-└── statement.md
-</pre>
+├── statement.md
+
+
+---
+
+## How to Install & Run the Project
+
+### Prerequisites
+
+Ensure Python is installed (version 3.7+ recommended)
+
+### Steps
+
+# 1. Clone the repository
+git clone https://github.com/<your-username>/Food-Ordering-System.git
+
+# 2. Enter project folder
+cd Food-Ordering-System
+
+# 3. Run the application
+python main.py
+
+No external library installation is required because Tkinter comes pre-installed with Python.
 
 
 
-## Steps to Install & Run the Project
+## Testing Instructions
 
-1. Install Python
+To test the application:
 
-   Ensure Python 3.x is installed.
-   Check with:
-            python --version
-
-2. Clone the Repository
-
-   git clone <your-repository-link>
-   cd FoodOrderingApp
-
-3. Run the Application
-
-   python src/app.py
-
-   The GUI window will open automatically.
+1. Select an item from the menu
 
 
+2. Click Add to Cart
 
 
-## Instructions for Testing
-
-   You can test the app through the following steps:
-
-1. Open the app
-   Verify that menu items appear in the listbox.
+3. Verify that the cart updates with item quantity and price
 
 
-2. Select a menu item and click ‘Add to Cart’
-
-   A message box should confirm the addition
-
-   The cart should update with the selected item and quantity
+4. Add multiple items and confirm the total price updates
 
 
-3. Add multiple items
-
-   Quantities should increase
-
-   Total cost should update correctly
+5. Press Place Order
 
 
-4. Click ‘Place Order’
-
-   If the cart is empty → warning message appears
-
-   If items exist → confirmation dialog appears
-
-   After confirmation → success message appears and cart resets
-
-
-5. Check GUI responsiveness
-   Ensure all buttons and text areas behave correctly.
+6. Check that a confirmation message appears and the cart resets
 
 
 
 
 ## Future Enhancements
 
-Add a database to store orders.
+Database storage (SQLite / MySQL)
 
-Add a login/signup module.
+Online payment feature
 
-Include images for menu items.
+Printable invoice generation
 
-Add quantity selector instead of multiple clicks.
+Login system for customers/staff
 
-Implement billing receipt download.
-
-
-
-
-## Project Status
-
-Fully functional basic prototype
-Can be extended with advanced modules (Billing, Database, User Management)
+Mobile version using Kivy / Flutter
 
 
 
 
-## License
+## Author
 
-This project is free to use for academic purposes.
+Irfan Ansari
+CSE (AI & ML) – VIT Bhopal University
+
+## End of readme.md
