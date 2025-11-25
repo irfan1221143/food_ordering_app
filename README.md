@@ -37,15 +37,15 @@ Miscellaneous	                                    Messagebox for alerts & confir
 
 
 ## Folder Structure
-
+<pre>
 Food-Ordering-System
 │
 ├── main.py
 ├── README.md
 ├── statement.md
+</pre>
 
 
----
 
 ## How to Install & Run the Project
 
