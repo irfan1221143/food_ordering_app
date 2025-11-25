@@ -55,14 +55,14 @@ Ensure Python is installed (version 3.7+ recommended)
 
 ### Steps
 
-# 1. Clone the repository
-git clone https://github.com/<your-username>/Food-Ordering-System.git
+## 1. Clone the repository
+git clone https://github.com/irfan1221143/Food-Ordering-System.git
 
-# 2. Enter project folder
+## 2. Enter project folder
 cd Food-Ordering-System
 
-# 3. Run the application
-python main.py
+## 3. Run the application
+python food_ordering_app.py
 
 No external library installation is required because Tkinter comes pre-installed with Python.
 
