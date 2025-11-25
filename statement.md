@@ -82,3 +82,5 @@ Bill invoice generation (PDF)
 Mobile app version using Kivy / Flutter
 
 Real-time order dashboard for restaurant employees
+
+## End of statement.md
