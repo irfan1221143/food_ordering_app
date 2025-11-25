@@ -13,15 +13,15 @@ It is simple, fast, and designed for small restaurants/canteens transitioning to
 
 
 ## Features
-
-### Module	                    |               Description
+<pre>
+Module	                        |               Description
                                 |
-Menu Display	                 |               Shows list of available food items with prices
+Menu Display	                  |               Shows list of available food items with prices
 Add to Cart	                    |               Items can be added multiple times; quantity updates automatically
-Billing System	                 |               Calculates item-wise and total price dynamically
-Order Placement	              |               Confirms order and clears the cart
+Billing System	                |               Calculates item-wise and total price dynamically
+Order Placement	                |               Confirms order and clears the cart
 GUI-based System	              |               User-friendly interface using Tkinter
-
+</pre>
 
 
 
