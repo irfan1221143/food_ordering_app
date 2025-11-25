@@ -14,25 +14,25 @@ It is simple, fast, and designed for small restaurants/canteens transitioning to
 
 ## Features
 <pre>
-Module	                        |               Description
-                                |
-Menu Display	                 |               Shows list of available food items with prices
-Add to Cart	                    |               Items can be added multiple times; quantity updates automatically
-Billing System	                |               Calculates item-wise and total price dynamically
-Order Placement	                |               Confirms order and clears the cart
-GUI-based System	             |               User-friendly interface using Tkinter
+Module	                                       Description
+                                
+Menu Display	                                 Shows list of available food items with prices
+Add to Cart	                                   Items can be added multiple times; quantity updates automatically
+Billing System	                               Calculates item-wise and total price dynamically
+Order Placement	                               Confirms order and clears the cart
+GUI-based System	                             User-friendly interface using Tkinter
 </pre>
 
 
 
 ## Technologies / Tools Used
-
-### Component	                   |                Technology
-                                  |
-Programming Language	             |                Python
-GUI Framework	                   |                Tkinter
-Miscellaneous	                   |                Messagebox for alerts & confirmations
-
+<pre>
+Component	                                        Technology
+                                  
+Programming Language	                            Python
+GUI Framework	                                    Tkinter
+Miscellaneous	                                    Messagebox for alerts & confirmations
+</pre>
 
 
 
