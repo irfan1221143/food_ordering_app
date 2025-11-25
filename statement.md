@@ -46,6 +46,7 @@ Staff members who receive orders on the system
 
 ## High-Level Features
 
+
 1. Feature	Description
 
 Menu Display	Shows available food items with prices
@@ -53,6 +54,7 @@ Add to Cart	Users can add selected items; quantity updates automatically
 Price Calculator	Shows total bill based on selected items
 Order Placement	Confirm order and reset cart for next customer
 GUI Interface	Interactive Tkinter-based application for smooth user experience
+
 
 
 2. Out-of-Scope
@@ -68,6 +70,7 @@ Order history tracking
 Real-time restaurant inventory management
 
 Food delivery tracking
+
 
 
 3. Future Enhancement Ideas
